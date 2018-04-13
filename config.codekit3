@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/food.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/food-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -64,6 +74,16 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/score.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/score-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/sketch.js": {
 		"ft": 64,

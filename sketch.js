@@ -13,14 +13,15 @@ function setup() {
     var y = (windowHeight - height) / 2;
 
     cnv.position(x, y);
-
     pacman = new Pacman();
 }
 
 function draw() {
     background(0);
     drawWorld();
+    food();
     pacman.show();
+    score();
 }
 
 function keyPressed() {
