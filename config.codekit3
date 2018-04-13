@@ -19,6 +19,50 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/ghost-blue.png": {
+		"ft": 32768,
+		"iS": 43078,
+		"oA": 0,
+		"oAP": "\/ghost-blue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/ghost-orange.png": {
+		"ft": 32768,
+		"iS": 49207,
+		"oA": 0,
+		"oAP": "\/ghost-orange.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/ghost-pink.png": {
+		"ft": 32768,
+		"iS": 45184,
+		"oA": 0,
+		"oAP": "\/ghost-pink.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/ghost-red.png": {
+		"ft": 32768,
+		"iS": 40742,
+		"oA": 0,
+		"oAP": "\/ghost-red.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -35,6 +79,39 @@
 		"oF": 1,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/pacman-down.png": {
+		"ft": 32768,
+		"iS": 16560,
+		"oA": 0,
+		"oAP": "\/pacman-down.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/pacman-left.png": {
+		"ft": 32768,
+		"iS": 16531,
+		"oA": 0,
+		"oAP": "\/pacman-left.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/pacman-up.png": {
+		"ft": 32768,
+		"iS": 16570,
+		"oA": 0,
+		"oAP": "\/pacman-up.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/pacman.js": {
 		"ft": 64,
