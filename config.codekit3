@@ -26,6 +26,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/pacman.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/pacman-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/pacman.png": {
 		"ft": 32768,
 		"iS": 15632,

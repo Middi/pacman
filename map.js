@@ -1,8 +1,5 @@
 var textMap = [
 ['0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'],
-['0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'],
-['0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'],
-['0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'],
 ['0 + - - - - + - - - - - + 0 0 + - - - - - + - - - - + 0'],
 ['0 | 0 0 0 0 | 0 0 0 0 0 | 0 0 | 0 0 0 0 0 | 0 0 0 0 | 0'],
 ['0 | 0 0 0 0 | 0 0 0 0 0 | 0 0 | 0 0 0 0 0 | 0 0 0 0 | 0'],
@@ -31,9 +28,7 @@ var textMap = [
 ['0 + - + - - + 0 0 + - - + 0 0 + - - + 0 0 + - - + - + 0'],
 ['0 | 0 0 0 0 0 0 0 0 0 0 | 0 0 | 0 0 0 0 0 0 0 0 0 0 | 0'],
 ['0 | 0 0 0 0 0 0 0 0 0 0 | 0 0 | 0 0 0 0 0 0 0 0 0 0 | 0'],
-['0 + - - - - - - 5 - - - + - - + - - - - - - - - - - + 0'],
-['0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'],
-['0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'],
+['0 + - - - - - - - - - - + - - + - - - - - - - - - - + 0'],
 ['0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0']
 ];
 
@@ -46,37 +41,21 @@ var world = [];
         }
     }
 
-
-
-
-
-var cnv = {
-    x: 0,
-    y: 0,
-    width: 15
-}
-
-var pacman = {
-    x: 32,
-    y: 8
-};
-
 function drawWorld() {
     
 console.log('redraw');
     for(var y = 0; y < world.length; y++) {
         for(var x = 0; x < world[y].length; x++) {
-
             switch(world[y][x]) {
                 case '0':
                     fill(22, 22, 250);
                     strokeWeight(4);
                     stroke(0);
-                    rect(x*15, y*15, 15, 15);
+                    rect(x*cell, y*cell, cell, cell);
                     break;
                 case '1':
                     fill(0);
-                    rect(x*15, y*15, 15, 15);
+                    rect(x*cell, y*cell, cell, cell);
                     break;                
                 case '2':
                     noStroke();
@@ -85,10 +64,6 @@ console.log('redraw');
                     fill(255);
                     ellipseMode(CENTER);
                     ellipse(x*50 + cnv.width/2, y*50 + cnv.width/2, 8, 8);
-                    break;                
-                case '5':
-                    imageMode(CENTER);
-                    image(pacman.img, x*15 + cnv.width/2, y*15 + cnv.width/2, 10, 10);
                     break;
                 default:
             }
