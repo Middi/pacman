@@ -41,7 +41,7 @@ function Pacman () {
                     this.location.x = this.location.x -1;
                 }
                 if (pacman.location.x < 0){
-                    pacman.location.x = 27;
+                    pacman.location.x = 26;
                 }
                 break;
             case RIGHT_ARROW:
@@ -53,7 +53,7 @@ function Pacman () {
                     world[this.location.y][this.location.x] = '1';
                     this.location.x = this.location.x +1;
                 }
-                if (pacman.location.x >27){
+                if (pacman.location.x >26){
                     pacman.location.x = 0;
                 }
                 break;
